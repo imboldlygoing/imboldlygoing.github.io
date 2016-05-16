@@ -1,0 +1,48 @@
+@import 'mysettings'
+
+//Mixins
+
+=h-align
+ margin-left: auto
+ margin-right: auto
+
+=v-align
+ //position: relative
+ top: 50%
+ -webkit-transform: translateY(-50%)
+ -ms-transform: translateY(-50%)
+ transform: translateY(-50%)
+
+=c-align
+ position: absolute
+ top: 50%
+ left: 50%
+ transform: translate(-50%, -50%)
+ -webkit-transform: translateY(-50%, -50%)
+ -ms-transform: translateY(-50%, -50%)
+
+=size($width, $height)
+ width: $width
+ height: $height
+
+=font($size,$weight,$font)
+ font-family: $font
+ font-size: $size
+ font-weight: $weight
+
+=blendy($color, $blend)
+ background-image: url('../assets/background.jpg')
+ background-color: $color
+ background-blend-mode: $blend
+
+=transition
+ transition: 0.3s linear 0s
+
+=overflow
+ overflow: auto
+
+=border-radius($radius)
+ -webkit-border-radius: $radius
+ -moz-border-radius: $radius
+ -ms-border-radius: $radius
+ border-radius: $radius

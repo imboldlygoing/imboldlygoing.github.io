@@ -1,0 +1,34 @@
+body
+ +blendy($mirage-70, multiply)
+ background-size: cover
+
+#logo
+ background: url('../assets/logo-white.svg') no-repeat
+ background-position: center
+ background-size: contain
+ min-height: 3rem
+ margin-bottom: 1vw
+ //border: 2px red solid
+ +overflow
+
+.wrapper
+ width: calc(50% + 320px)
+ +overflow
+ top: 50%
+ left: 50%
+ transform: translate(-50%, -50%)
+ -webkit-transform: translateY(-50%, -50%)
+ -ms-transform: translateY(-50%, -50%)
+ max-height: 80%
+ position: absolute
+
+.social
+ margin-top: 1vw
+ img
+  +size(2em, 2em)
+  margin: 1vw
+  &:hover
+   opacity: 0.8
+   -moz-opacity: 0.8
+   -o-opacity: 0.8
+   -webkit-opacity: 0.8

@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900&subset=latin,latin-ext);
+/* line 1, ../sass/_mytype.sass */
+html {
+  font-size: 14pt;
+}
+
+/* line 4, ../sass/_mytype.sass */
+body {
+  font-size: 1rem;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+/* line 14, ../sass/_mytype.sass */
+p {
+  color: white;
+}
+/* line 16, ../sass/_mytype.sass */
+p.intro {
+  text-align: center;
+  font-weight: 300;
+  font-size: 1.8rem;
+}
+/* line 20, ../sass/_mytype.sass */
+p b {
+  font-weight: bold;
+}
+
+/* line 1, ../sass/_mybase.sass */
+body {
+  background-image: url("../assets/background.jpg");
+  background-color: rgba(17, 23, 45, 0.7);
+  background-blend-mode: multiply;
+  background-size: cover;
+}
+
+/* line 5, ../sass/_mybase.sass */
+#logo {
+  background: url("../assets/logo-white.svg") no-repeat;
+  background-position: center;
+  background-size: contain;
+  min-height: 3rem;
+  margin-bottom: 1vw;
+  overflow: auto;
+}
+
+/* line 14, ../sass/_mybase.sass */
+.wrapper {
+  width: calc(50% + 320px);
+  overflow: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translateY(-50%, -50%);
+  -ms-transform: translateY(-50%, -50%);
+  max-height: 80%;
+  position: absolute;
+}
+
+/* line 25, ../sass/_mybase.sass */
+.social {
+  margin-top: 1vw;
+}
+/* line 27, ../sass/_mybase.sass */
+.social img {
+  width: 2em;
+  height: 2em;
+  margin: 1vw;
+}
+/* line 30, ../sass/_mybase.sass */
+.social img:hover {
+  opacity: 0.8;
+  -moz-opacity: 0.8;
+  -o-opacity: 0.8;
+  -webkit-opacity: 0.8;
+}
