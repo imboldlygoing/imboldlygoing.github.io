@@ -46,6 +46,7 @@ body {
 /* line 14, ../sass/_mybase.sass */
 .wrapper {
   width: calc(50% + 320px);
+  max-width: 70%;
   overflow: auto;
   top: 50%;
   left: 50%;
@@ -56,17 +57,17 @@ body {
   position: absolute;
 }
 
-/* line 25, ../sass/_mybase.sass */
+/* line 26, ../sass/_mybase.sass */
 .social {
   margin-top: 1vw;
 }
-/* line 27, ../sass/_mybase.sass */
+/* line 28, ../sass/_mybase.sass */
 .social img {
-  width: 2em;
-  height: 2em;
+  width: auto;
+  height: 1.5em;
   margin: 1vw;
 }
-/* line 30, ../sass/_mybase.sass */
+/* line 31, ../sass/_mybase.sass */
 .social img:hover {
   opacity: 0.8;
   -moz-opacity: 0.8;
