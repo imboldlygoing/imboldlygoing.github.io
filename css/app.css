@@ -27,9 +27,7 @@ p b {
 
 /* line 1, ../sass/_mybase.sass */
 body {
-  background-image: url("../assets/background.jpg");
-  background-color: rgba(17, 23, 45, 0.7);
-  background-blend-mode: multiply;
+  background-size: cover;
 }
 
 /* line 5, ../sass/_mybase.sass */
