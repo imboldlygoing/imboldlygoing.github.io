@@ -1,38 +1,38 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900&subset=latin,latin-ext);
-/* line 1, ../sass/_mytype.sass */
-html {
-  font-size: 14pt;
-}
-
-/* line 4, ../sass/_mytype.sass */
+/* line 5, ../sass/_mytype.sass */
 body {
-  font-size: 1rem;
+  font-size: 1em;
   font-family: "Source Sans Pro", sans-serif;
 }
 
-/* line 14, ../sass/_mytype.sass */
+/* line 15, ../sass/_mytype.sass */
 p {
   color: white;
 }
-/* line 16, ../sass/_mytype.sass */
+/* line 17, ../sass/_mytype.sass */
 p.intro {
   text-align: center;
   font-weight: 300;
-  font-size: 1.8rem;
+  font-size: 3vw;
 }
-/* line 20, ../sass/_mytype.sass */
+/* line 21, ../sass/_mytype.sass */
 p b {
   font-weight: bold;
 }
 
 /* line 1, ../sass/_mybase.sass */
+html {
+  height: 100%;
+}
+
+/* line 4, ../sass/_mybase.sass */
 body {
   background-color: #11172d;
   background-size: cover;
   background-image: url("../assets/background.jpg");
 }
 
-/* line 7, ../sass/_mybase.sass */
+/* line 10, ../sass/_mybase.sass */
 #logo {
   background: url("../assets/logo-white.svg") no-repeat;
   background-position: center;
@@ -42,7 +42,7 @@ body {
   overflow: auto;
 }
 
-/* line 16, ../sass/_mybase.sass */
+/* line 19, ../sass/_mybase.sass */
 .wrapper {
   width: calc(50% + 320px);
   max-width: 70%;
@@ -56,17 +56,17 @@ body {
   position: absolute;
 }
 
-/* line 28, ../sass/_mybase.sass */
+/* line 31, ../sass/_mybase.sass */
 .social {
   margin-top: 1vw;
 }
-/* line 30, ../sass/_mybase.sass */
+/* line 33, ../sass/_mybase.sass */
 .social img {
   width: auto;
   height: 1.5em;
   margin: 1vw;
 }
-/* line 33, ../sass/_mybase.sass */
+/* line 36, ../sass/_mybase.sass */
 .social img:hover {
   opacity: 0.8;
   -moz-opacity: 0.8;
