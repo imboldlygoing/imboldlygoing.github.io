@@ -29,9 +29,10 @@ p b {
 body {
   background-color: #11172d;
   background-size: cover;
+  background-image: url("../assets/background.jpg");
 }
 
-/* line 6, ../sass/_mybase.sass */
+/* line 7, ../sass/_mybase.sass */
 #logo {
   background: url("../assets/logo-white.svg") no-repeat;
   background-position: center;
@@ -41,7 +42,7 @@ body {
   overflow: auto;
 }
 
-/* line 15, ../sass/_mybase.sass */
+/* line 16, ../sass/_mybase.sass */
 .wrapper {
   width: calc(50% + 320px);
   max-width: 70%;
@@ -55,17 +56,17 @@ body {
   position: absolute;
 }
 
-/* line 27, ../sass/_mybase.sass */
+/* line 28, ../sass/_mybase.sass */
 .social {
   margin-top: 1vw;
 }
-/* line 29, ../sass/_mybase.sass */
+/* line 30, ../sass/_mybase.sass */
 .social img {
   width: auto;
   height: 1.5em;
   margin: 1vw;
 }
-/* line 32, ../sass/_mybase.sass */
+/* line 33, ../sass/_mybase.sass */
 .social img:hover {
   opacity: 0.8;
   -moz-opacity: 0.8;
